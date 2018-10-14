@@ -9,6 +9,7 @@ namespace WebApi.Controllers
 
     public class GameController : ApiController
     {
+       
         [HttpGet]
         [Route("GetAllCards/{userName}")]
         public HttpResponseMessage GetAllCards(string userName)
